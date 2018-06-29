@@ -6,8 +6,8 @@ if(err) {
 return console.log(err);
 }
 db.collection('Todos').insertOne({
-text: 'Something to do fourth',
-completed: true
+text: 'Eat lunch',
+completed: false
 },(err, result)=> {
 if(err){
 return console.log('unable to insert todo', err);
